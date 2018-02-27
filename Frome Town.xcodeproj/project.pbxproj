@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE2358862045887800A10181 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358852045887800A10181 /* AppDelegate.swift */; };
+		CE2358882045887800A10181 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358872045887800A10181 /* ViewController.swift */; };
+		CE23588B2045887800A10181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2358892045887800A10181 /* Main.storyboard */; };
+		CE23588D2045887800A10181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE23588C2045887800A10181 /* Assets.xcassets */; };
+		CE2358902045887800A10181 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE23588E2045887800A10181 /* LaunchScreen.storyboard */; };
+		CE23589B2045887800A10181 /* Frome_TownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23589A2045887800A10181 /* Frome_TownTests.swift */; };
+		CE2358A62045887800A10181 /* Frome_TownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358A52045887800A10181 /* Frome_TownUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE2358972045887800A10181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE23587A2045887800A10181 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2358812045887800A10181;
+			remoteInfo = "Frome Town";
+		};
+		CE2358A22045887800A10181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE23587A2045887800A10181 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2358812045887800A10181;
+			remoteInfo = "Frome Town";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE2358822045887800A10181 /* Frome Town.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Frome Town.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2358852045887800A10181 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE2358872045887800A10181 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE23588A2045887800A10181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE23588C2045887800A10181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE23588F2045887800A10181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE2358912045887800A10181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2358962045887800A10181 /* Frome TownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frome TownTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE23589A2045887800A10181 /* Frome_TownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frome_TownTests.swift; sourceTree = "<group>"; };
+		CE23589C2045887800A10181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2358A12045887800A10181 /* Frome TownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frome TownUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2358A52045887800A10181 /* Frome_TownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frome_TownUITests.swift; sourceTree = "<group>"; };
+		CE2358A72045887800A10181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE23587F2045887800A10181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2358932045887800A10181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE23589E2045887800A10181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE2358792045887800A10181 = {
+			isa = PBXGroup;
+			children = (
+				CE2358842045887800A10181 /* Frome Town */,
+				CE2358992045887800A10181 /* Frome TownTests */,
+				CE2358A42045887800A10181 /* Frome TownUITests */,
+				CE2358832045887800A10181 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE2358832045887800A10181 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2358822045887800A10181 /* Frome Town.app */,
+				CE2358962045887800A10181 /* Frome TownTests.xctest */,
+				CE2358A12045887800A10181 /* Frome TownUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE2358842045887800A10181 /* Frome Town */ = {
+			isa = PBXGroup;
+			children = (
+				CE2358852045887800A10181 /* AppDelegate.swift */,
+				CE2358872045887800A10181 /* ViewController.swift */,
+				CE2358892045887800A10181 /* Main.storyboard */,
+				CE23588C2045887800A10181 /* Assets.xcassets */,
+				CE23588E2045887800A10181 /* LaunchScreen.storyboard */,
+				CE2358912045887800A10181 /* Info.plist */,
+			);
+			path = "Frome Town";
+			sourceTree = "<group>";
+		};
+		CE2358992045887800A10181 /* Frome TownTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE23589A2045887800A10181 /* Frome_TownTests.swift */,
+				CE23589C2045887800A10181 /* Info.plist */,
+			);
+			path = "Frome TownTests";
+			sourceTree = "<group>";
+		};
+		CE2358A42045887800A10181 /* Frome TownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE2358A52045887800A10181 /* Frome_TownUITests.swift */,
+				CE2358A72045887800A10181 /* Info.plist */,
+			);
+			path = "Frome TownUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE2358812045887800A10181 /* Frome Town */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2358AA2045887800A10181 /* Build configuration list for PBXNativeTarget "Frome Town" */;
+			buildPhases = (
+				CE23587E2045887800A10181 /* Sources */,
+				CE23587F2045887800A10181 /* Frameworks */,
+				CE2358802045887800A10181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Frome Town";
+			productName = "Frome Town";
+			productReference = CE2358822045887800A10181 /* Frome Town.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE2358952045887800A10181 /* Frome TownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2358AD2045887800A10181 /* Build configuration list for PBXNativeTarget "Frome TownTests" */;
+			buildPhases = (
+				CE2358922045887800A10181 /* Sources */,
+				CE2358932045887800A10181 /* Frameworks */,
+				CE2358942045887800A10181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2358982045887800A10181 /* PBXTargetDependency */,
+			);
+			name = "Frome TownTests";
+			productName = "Frome TownTests";
+			productReference = CE2358962045887800A10181 /* Frome TownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE2358A02045887800A10181 /* Frome TownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2358B02045887800A10181 /* Build configuration list for PBXNativeTarget "Frome TownUITests" */;
+			buildPhases = (
+				CE23589D2045887800A10181 /* Sources */,
+				CE23589E2045887800A10181 /* Frameworks */,
+				CE23589F2045887800A10181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2358A32045887800A10181 /* PBXTargetDependency */,
+			);
+			name = "Frome TownUITests";
+			productName = "Frome TownUITests";
+			productReference = CE2358A12045887800A10181 /* Frome TownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE23587A2045887800A10181 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Gary Collinson";
+				TargetAttributes = {
+					CE2358812045887800A10181 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CE2358952045887800A10181 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE2358812045887800A10181;
+					};
+					CE2358A02045887800A10181 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE2358812045887800A10181;
+					};
+				};
+			};
+			buildConfigurationList = CE23587D2045887800A10181 /* Build configuration list for PBXProject "Frome Town" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE2358792045887800A10181;
+			productRefGroup = CE2358832045887800A10181 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE2358812045887800A10181 /* Frome Town */,
+				CE2358952045887800A10181 /* Frome TownTests */,
+				CE2358A02045887800A10181 /* Frome TownUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE2358802045887800A10181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2358902045887800A10181 /* LaunchScreen.storyboard in Resources */,
+				CE23588D2045887800A10181 /* Assets.xcassets in Resources */,
+				CE23588B2045887800A10181 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2358942045887800A10181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE23589F2045887800A10181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE23587E2045887800A10181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2358882045887800A10181 /* ViewController.swift in Sources */,
+				CE2358862045887800A10181 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2358922045887800A10181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE23589B2045887800A10181 /* Frome_TownTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE23589D2045887800A10181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2358A62045887800A10181 /* Frome_TownUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE2358982045887800A10181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2358812045887800A10181 /* Frome Town */;
+			targetProxy = CE2358972045887800A10181 /* PBXContainerItemProxy */;
+		};
+		CE2358A32045887800A10181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2358812045887800A10181 /* Frome Town */;
+			targetProxy = CE2358A22045887800A10181 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE2358892045887800A10181 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE23588A2045887800A10181 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE23588E2045887800A10181 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE23588F2045887800A10181 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE2358A82045887800A10181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE2358A92045887800A10181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE2358AB2045887800A10181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHU39HZYKT;
+				INFOPLIST_FILE = "Frome Town/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FromeTownFC.Frome-Town";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE2358AC2045887800A10181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHU39HZYKT;
+				INFOPLIST_FILE = "Frome Town/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FromeTownFC.Frome-Town";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE2358AE2045887800A10181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHU39HZYKT;
+				INFOPLIST_FILE = "Frome TownTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FromeTownFC.Frome-TownTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frome Town.app/Frome Town";
+			};
+			name = Debug;
+		};
+		CE2358AF2045887800A10181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHU39HZYKT;
+				INFOPLIST_FILE = "Frome TownTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FromeTownFC.Frome-TownTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frome Town.app/Frome Town";
+			};
+			name = Release;
+		};
+		CE2358B12045887800A10181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHU39HZYKT;
+				INFOPLIST_FILE = "Frome TownUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FromeTownFC.Frome-TownUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Frome Town";
+			};
+			name = Debug;
+		};
+		CE2358B22045887800A10181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHU39HZYKT;
+				INFOPLIST_FILE = "Frome TownUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FromeTownFC.Frome-TownUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Frome Town";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE23587D2045887800A10181 /* Build configuration list for PBXProject "Frome Town" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2358A82045887800A10181 /* Debug */,
+				CE2358A92045887800A10181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2358AA2045887800A10181 /* Build configuration list for PBXNativeTarget "Frome Town" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2358AB2045887800A10181 /* Debug */,
+				CE2358AC2045887800A10181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2358AD2045887800A10181 /* Build configuration list for PBXNativeTarget "Frome TownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2358AE2045887800A10181 /* Debug */,
+				CE2358AF2045887800A10181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2358B02045887800A10181 /* Build configuration list for PBXNativeTarget "Frome TownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2358B12045887800A10181 /* Debug */,
+				CE2358B22045887800A10181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE23587A2045887800A10181 /* Project object */;
+}
