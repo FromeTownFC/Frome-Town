@@ -8,12 +8,71 @@
 
 /* Begin PBXBuildFile section */
 		CE2358862045887800A10181 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358852045887800A10181 /* AppDelegate.swift */; };
-		CE2358882045887800A10181 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358872045887800A10181 /* ViewController.swift */; };
-		CE23588B2045887800A10181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2358892045887800A10181 /* Main.storyboard */; };
-		CE23588D2045887800A10181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE23588C2045887800A10181 /* Assets.xcassets */; };
-		CE2358902045887800A10181 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE23588E2045887800A10181 /* LaunchScreen.storyboard */; };
 		CE23589B2045887800A10181 /* Frome_TownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23589A2045887800A10181 /* Frome_TownTests.swift */; };
 		CE2358A62045887800A10181 /* Frome_TownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358A52045887800A10181 /* Frome_TownUITests.swift */; };
+		CE2358B72045889E00A10181 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358B32045889D00A10181 /* FifthViewController.swift */; };
+		CE2358B82045889E00A10181 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358B32045889D00A10181 /* FifthViewController.swift */; };
+		CE2358B92045889E00A10181 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358B32045889D00A10181 /* FifthViewController.swift */; };
+		CE2358BA2045889E00A10181 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358B42045889D00A10181 /* FirstViewController.swift */; };
+		CE2358BB2045889E00A10181 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358B42045889D00A10181 /* FirstViewController.swift */; };
+		CE2358BC2045889E00A10181 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358B42045889D00A10181 /* FirstViewController.swift */; };
+		CE2358BD2045889E00A10181 /* FacebookPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358B52045889E00A10181 /* FacebookPageController.swift */; };
+		CE2358BE2045889E00A10181 /* FacebookPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358B52045889E00A10181 /* FacebookPageController.swift */; };
+		CE2358BF2045889E00A10181 /* FacebookPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358B52045889E00A10181 /* FacebookPageController.swift */; };
+		CE2358C02045889E00A10181 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358B62045889E00A10181 /* FourthViewController.swift */; };
+		CE2358C12045889E00A10181 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358B62045889E00A10181 /* FourthViewController.swift */; };
+		CE2358C22045889E00A10181 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358B62045889E00A10181 /* FourthViewController.swift */; };
+		CE2358C7204588AB00A10181 /* Frome Town Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2358C3204588AA00A10181 /* Frome Town Launch Screen.storyboard */; };
+		CE2358C8204588AB00A10181 /* Frome Town Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2358C3204588AA00A10181 /* Frome Town Launch Screen.storyboard */; };
+		CE2358C9204588AB00A10181 /* Frome Town Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2358C3204588AA00A10181 /* Frome Town Launch Screen.storyboard */; };
+		CE2358CA204588AB00A10181 /* FromeTownLadiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358C4204588AA00A10181 /* FromeTownLadiesViewController.swift */; };
+		CE2358CB204588AB00A10181 /* FromeTownLadiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358C4204588AA00A10181 /* FromeTownLadiesViewController.swift */; };
+		CE2358CC204588AB00A10181 /* FromeTownLadiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358C4204588AA00A10181 /* FromeTownLadiesViewController.swift */; };
+		CE2358CD204588AB00A10181 /* FromeTownRobinsTwitterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358C5204588AB00A10181 /* FromeTownRobinsTwitterController.swift */; };
+		CE2358CE204588AB00A10181 /* FromeTownRobinsTwitterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358C5204588AB00A10181 /* FromeTownRobinsTwitterController.swift */; };
+		CE2358CF204588AB00A10181 /* FromeTownRobinsTwitterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358C5204588AB00A10181 /* FromeTownRobinsTwitterController.swift */; };
+		CE2358D0204588AB00A10181 /* FromeTownRobinsFacebookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358C6204588AB00A10181 /* FromeTownRobinsFacebookController.swift */; };
+		CE2358D1204588AB00A10181 /* FromeTownRobinsFacebookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358C6204588AB00A10181 /* FromeTownRobinsFacebookController.swift */; };
+		CE2358D2204588AB00A10181 /* FromeTownRobinsFacebookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358C6204588AB00A10181 /* FromeTownRobinsFacebookController.swift */; };
+		CE2358D5204588B500A10181 /* HistoryPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358D3204588B500A10181 /* HistoryPageController.swift */; };
+		CE2358D6204588B500A10181 /* HistoryPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358D3204588B500A10181 /* HistoryPageController.swift */; };
+		CE2358D7204588B500A10181 /* HistoryPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358D3204588B500A10181 /* HistoryPageController.swift */; };
+		CE2358D8204588B500A10181 /* IMAGES.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2358D4204588B500A10181 /* IMAGES.xcassets */; };
+		CE2358D9204588B500A10181 /* IMAGES.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2358D4204588B500A10181 /* IMAGES.xcassets */; };
+		CE2358DA204588B500A10181 /* IMAGES.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2358D4204588B500A10181 /* IMAGES.xcassets */; };
+		CE2358DC204588C200A10181 /* InstagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358DB204588C200A10181 /* InstagramViewController.swift */; };
+		CE2358DD204588C200A10181 /* InstagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358DB204588C200A10181 /* InstagramViewController.swift */; };
+		CE2358DE204588C200A10181 /* InstagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358DB204588C200A10181 /* InstagramViewController.swift */; };
+		CE2358E5204588D300A10181 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358DF204588D100A10181 /* PlayerViewController.swift */; };
+		CE2358E6204588D300A10181 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358DF204588D100A10181 /* PlayerViewController.swift */; };
+		CE2358E7204588D300A10181 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358DF204588D100A10181 /* PlayerViewController.swift */; };
+		CE2358E8204588D300A10181 /* RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358E0204588D100A10181 /* RoundCorners.swift */; };
+		CE2358E9204588D300A10181 /* RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358E0204588D100A10181 /* RoundCorners.swift */; };
+		CE2358EA204588D300A10181 /* RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358E0204588D100A10181 /* RoundCorners.swift */; };
+		CE2358EB204588D300A10181 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358E1204588D200A10181 /* RoundButton.swift */; };
+		CE2358EC204588D300A10181 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358E1204588D200A10181 /* RoundButton.swift */; };
+		CE2358ED204588D300A10181 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358E1204588D200A10181 /* RoundButton.swift */; };
+		CE2358EE204588D300A10181 /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358E2204588D200A10181 /* ReportsViewController.swift */; };
+		CE2358EF204588D300A10181 /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358E2204588D200A10181 /* ReportsViewController.swift */; };
+		CE2358F0204588D300A10181 /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358E2204588D200A10181 /* ReportsViewController.swift */; };
+		CE2358F1204588D300A10181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2358E3204588D200A10181 /* Main.storyboard */; };
+		CE2358F2204588D300A10181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2358E3204588D200A10181 /* Main.storyboard */; };
+		CE2358F3204588D300A10181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2358E3204588D200A10181 /* Main.storyboard */; };
+		CE2358F4204588D300A10181 /* RadioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358E4204588D200A10181 /* RadioViewController.swift */; };
+		CE2358F5204588D300A10181 /* RadioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358E4204588D200A10181 /* RadioViewController.swift */; };
+		CE2358F6204588D300A10181 /* RadioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358E4204588D200A10181 /* RadioViewController.swift */; };
+		CE2358F8204588DD00A10181 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358F7204588DD00A10181 /* SecondViewController.swift */; };
+		CE2358F9204588DD00A10181 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358F7204588DD00A10181 /* SecondViewController.swift */; };
+		CE2358FA204588DD00A10181 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358F7204588DD00A10181 /* SecondViewController.swift */; };
+		CE2358FE204588E600A10181 /* TwitterPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358FB204588E500A10181 /* TwitterPageController.swift */; };
+		CE2358FF204588E600A10181 /* TwitterPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358FB204588E500A10181 /* TwitterPageController.swift */; };
+		CE235900204588E600A10181 /* TwitterPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358FB204588E500A10181 /* TwitterPageController.swift */; };
+		CE235901204588E600A10181 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358FC204588E500A10181 /* VideosViewController.swift */; };
+		CE235902204588E600A10181 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358FC204588E500A10181 /* VideosViewController.swift */; };
+		CE235903204588E600A10181 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358FC204588E500A10181 /* VideosViewController.swift */; };
+		CE235904204588E600A10181 /* ThirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358FD204588E500A10181 /* ThirdController.swift */; };
+		CE235905204588E600A10181 /* ThirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358FD204588E500A10181 /* ThirdController.swift */; };
+		CE235906204588E600A10181 /* ThirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358FD204588E500A10181 /* ThirdController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +95,6 @@
 /* Begin PBXFileReference section */
 		CE2358822045887800A10181 /* Frome Town.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Frome Town.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2358852045887800A10181 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE2358872045887800A10181 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE23588A2045887800A10181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE23588C2045887800A10181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE23588F2045887800A10181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE2358912045887800A10181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE2358962045887800A10181 /* Frome TownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frome TownTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE23589A2045887800A10181 /* Frome_TownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frome_TownTests.swift; sourceTree = "<group>"; };
@@ -47,6 +102,29 @@
 		CE2358A12045887800A10181 /* Frome TownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frome TownUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2358A52045887800A10181 /* Frome_TownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frome_TownUITests.swift; sourceTree = "<group>"; };
 		CE2358A72045887800A10181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2358B32045889D00A10181 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FifthViewController.swift; path = "../../../../../Volumes/NO NAME/FifthViewController.swift"; sourceTree = "<group>"; };
+		CE2358B42045889D00A10181 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = "../../../../../Volumes/NO NAME/FirstViewController.swift"; sourceTree = "<group>"; };
+		CE2358B52045889E00A10181 /* FacebookPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FacebookPageController.swift; path = "../../../../../Volumes/NO NAME/FacebookPageController.swift"; sourceTree = "<group>"; };
+		CE2358B62045889E00A10181 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FourthViewController.swift; path = "../../../../../Volumes/NO NAME/FourthViewController.swift"; sourceTree = "<group>"; };
+		CE2358C3204588AA00A10181 /* Frome Town Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Frome Town Launch Screen.storyboard"; path = "../../../../../Volumes/NO NAME/Frome Town Launch Screen.storyboard"; sourceTree = "<group>"; };
+		CE2358C4204588AA00A10181 /* FromeTownLadiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FromeTownLadiesViewController.swift; path = "../../../../../Volumes/NO NAME/FromeTownLadiesViewController.swift"; sourceTree = "<group>"; };
+		CE2358C5204588AB00A10181 /* FromeTownRobinsTwitterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FromeTownRobinsTwitterController.swift; path = "../../../../../Volumes/NO NAME/FromeTownRobinsTwitterController.swift"; sourceTree = "<group>"; };
+		CE2358C6204588AB00A10181 /* FromeTownRobinsFacebookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FromeTownRobinsFacebookController.swift; path = "../../../../../Volumes/NO NAME/FromeTownRobinsFacebookController.swift"; sourceTree = "<group>"; };
+		CE2358D3204588B500A10181 /* HistoryPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryPageController.swift; path = "../../../../../Volumes/NO NAME/HistoryPageController.swift"; sourceTree = "<group>"; };
+		CE2358D4204588B500A10181 /* IMAGES.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = IMAGES.xcassets; path = "../../../../../Volumes/NO NAME/IMAGES.xcassets"; sourceTree = "<group>"; };
+		CE2358DB204588C200A10181 /* InstagramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InstagramViewController.swift; path = "../../../../../Volumes/NO NAME/InstagramViewController.swift"; sourceTree = "<group>"; };
+		CE2358DF204588D100A10181 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerViewController.swift; path = "../../../../../Volumes/NO NAME/PlayerViewController.swift"; sourceTree = "<group>"; };
+		CE2358E0204588D100A10181 /* RoundCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundCorners.swift; path = "../../../../../Volumes/NO NAME/RoundCorners.swift"; sourceTree = "<group>"; };
+		CE2358E1204588D200A10181 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundButton.swift; path = "../../../../../Volumes/NO NAME/New Group/RoundButton.swift"; sourceTree = "<group>"; };
+		CE2358E2204588D200A10181 /* ReportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportsViewController.swift; path = "../../../../../Volumes/NO NAME/ReportsViewController.swift"; sourceTree = "<group>"; };
+		CE2358E3204588D200A10181 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../../../../Volumes/NO NAME/New Group/Main.storyboard"; sourceTree = "<group>"; };
+		CE2358E4204588D200A10181 /* RadioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RadioViewController.swift; path = "../../../../../Volumes/NO NAME/RadioViewController.swift"; sourceTree = "<group>"; };
+		CE2358F7204588DD00A10181 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = "../../../../../Volumes/NO NAME/SecondViewController.swift"; sourceTree = "<group>"; };
+		CE2358FB204588E500A10181 /* TwitterPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitterPageController.swift; path = "../../../../../Volumes/NO NAME/TwitterPageController.swift"; sourceTree = "<group>"; };
+		CE2358FC204588E500A10181 /* VideosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideosViewController.swift; path = "../../../../../Volumes/NO NAME/VideosViewController.swift"; sourceTree = "<group>"; };
+		CE2358FD204588E500A10181 /* ThirdController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdController.swift; path = "../../../../../Volumes/NO NAME/ThirdController.swift"; sourceTree = "<group>"; };
+		CE2359192045A4D500A10181 /* Frome_TownUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frome_TownUITest.swift; sourceTree = "<group>"; };
+		CE23591B2045A4D500A10181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +158,7 @@
 				CE2358842045887800A10181 /* Frome Town */,
 				CE2358992045887800A10181 /* Frome TownTests */,
 				CE2358A42045887800A10181 /* Frome TownUITests */,
+				CE2359182045A4D500A10181 /* Frome TownUITest */,
 				CE2358832045887800A10181 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,10 +177,27 @@
 			isa = PBXGroup;
 			children = (
 				CE2358852045887800A10181 /* AppDelegate.swift */,
-				CE2358872045887800A10181 /* ViewController.swift */,
-				CE2358892045887800A10181 /* Main.storyboard */,
-				CE23588C2045887800A10181 /* Assets.xcassets */,
-				CE23588E2045887800A10181 /* LaunchScreen.storyboard */,
+				CE2358B52045889E00A10181 /* FacebookPageController.swift */,
+				CE2358B32045889D00A10181 /* FifthViewController.swift */,
+				CE2358B42045889D00A10181 /* FirstViewController.swift */,
+				CE2358B62045889E00A10181 /* FourthViewController.swift */,
+				CE2358C3204588AA00A10181 /* Frome Town Launch Screen.storyboard */,
+				CE2358C4204588AA00A10181 /* FromeTownLadiesViewController.swift */,
+				CE2358C6204588AB00A10181 /* FromeTownRobinsFacebookController.swift */,
+				CE2358C5204588AB00A10181 /* FromeTownRobinsTwitterController.swift */,
+				CE2358D3204588B500A10181 /* HistoryPageController.swift */,
+				CE2358D4204588B500A10181 /* IMAGES.xcassets */,
+				CE2358DB204588C200A10181 /* InstagramViewController.swift */,
+				CE2358E3204588D200A10181 /* Main.storyboard */,
+				CE2358DF204588D100A10181 /* PlayerViewController.swift */,
+				CE2358E4204588D200A10181 /* RadioViewController.swift */,
+				CE2358E2204588D200A10181 /* ReportsViewController.swift */,
+				CE2358E1204588D200A10181 /* RoundButton.swift */,
+				CE2358E0204588D100A10181 /* RoundCorners.swift */,
+				CE2358F7204588DD00A10181 /* SecondViewController.swift */,
+				CE2358FD204588E500A10181 /* ThirdController.swift */,
+				CE2358FB204588E500A10181 /* TwitterPageController.swift */,
+				CE2358FC204588E500A10181 /* VideosViewController.swift */,
 				CE2358912045887800A10181 /* Info.plist */,
 			);
 			path = "Frome Town";
@@ -123,6 +219,15 @@
 				CE2358A72045887800A10181 /* Info.plist */,
 			);
 			path = "Frome TownUITests";
+			sourceTree = "<group>";
+		};
+		CE2359182045A4D500A10181 /* Frome TownUITest */ = {
+			isa = PBXGroup;
+			children = (
+				CE2359192045A4D500A10181 /* Frome_TownUITest.swift */,
+				CE23591B2045A4D500A10181 /* Info.plist */,
+			);
+			path = "Frome TownUITest";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +337,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE2358902045887800A10181 /* LaunchScreen.storyboard in Resources */,
-				CE23588D2045887800A10181 /* Assets.xcassets in Resources */,
-				CE23588B2045887800A10181 /* Main.storyboard in Resources */,
+				CE2358F1204588D300A10181 /* Main.storyboard in Resources */,
+				CE2358C7204588AB00A10181 /* Frome Town Launch Screen.storyboard in Resources */,
+				CE2358D8204588B500A10181 /* IMAGES.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +347,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2358F2204588D300A10181 /* Main.storyboard in Resources */,
+				CE2358C8204588AB00A10181 /* Frome Town Launch Screen.storyboard in Resources */,
+				CE2358D9204588B500A10181 /* IMAGES.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +357,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2358F3204588D300A10181 /* Main.storyboard in Resources */,
+				CE2358C9204588AB00A10181 /* Frome Town Launch Screen.storyboard in Resources */,
+				CE2358DA204588B500A10181 /* IMAGES.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +370,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE2358882045887800A10181 /* ViewController.swift in Sources */,
+				CE235901204588E600A10181 /* VideosViewController.swift in Sources */,
+				CE2358F8204588DD00A10181 /* SecondViewController.swift in Sources */,
+				CE2358EE204588D300A10181 /* ReportsViewController.swift in Sources */,
+				CE2358BA2045889E00A10181 /* FirstViewController.swift in Sources */,
+				CE2358B72045889E00A10181 /* FifthViewController.swift in Sources */,
+				CE2358BD2045889E00A10181 /* FacebookPageController.swift in Sources */,
+				CE2358D5204588B500A10181 /* HistoryPageController.swift in Sources */,
 				CE2358862045887800A10181 /* AppDelegate.swift in Sources */,
+				CE2358E8204588D300A10181 /* RoundCorners.swift in Sources */,
+				CE2358EB204588D300A10181 /* RoundButton.swift in Sources */,
+				CE2358CA204588AB00A10181 /* FromeTownLadiesViewController.swift in Sources */,
+				CE2358CD204588AB00A10181 /* FromeTownRobinsTwitterController.swift in Sources */,
+				CE2358D0204588AB00A10181 /* FromeTownRobinsFacebookController.swift in Sources */,
+				CE2358F4204588D300A10181 /* RadioViewController.swift in Sources */,
+				CE235904204588E600A10181 /* ThirdController.swift in Sources */,
+				CE2358C02045889E00A10181 /* FourthViewController.swift in Sources */,
+				CE2358E5204588D300A10181 /* PlayerViewController.swift in Sources */,
+				CE2358DC204588C200A10181 /* InstagramViewController.swift in Sources */,
+				CE2358FE204588E600A10181 /* TwitterPageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +396,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE235902204588E600A10181 /* VideosViewController.swift in Sources */,
+				CE2358F9204588DD00A10181 /* SecondViewController.swift in Sources */,
+				CE2358EF204588D300A10181 /* ReportsViewController.swift in Sources */,
+				CE2358BB2045889E00A10181 /* FirstViewController.swift in Sources */,
+				CE2358B82045889E00A10181 /* FifthViewController.swift in Sources */,
+				CE2358BE2045889E00A10181 /* FacebookPageController.swift in Sources */,
+				CE2358D6204588B500A10181 /* HistoryPageController.swift in Sources */,
 				CE23589B2045887800A10181 /* Frome_TownTests.swift in Sources */,
+				CE2358E9204588D300A10181 /* RoundCorners.swift in Sources */,
+				CE2358EC204588D300A10181 /* RoundButton.swift in Sources */,
+				CE2358CB204588AB00A10181 /* FromeTownLadiesViewController.swift in Sources */,
+				CE2358CE204588AB00A10181 /* FromeTownRobinsTwitterController.swift in Sources */,
+				CE2358D1204588AB00A10181 /* FromeTownRobinsFacebookController.swift in Sources */,
+				CE2358F5204588D300A10181 /* RadioViewController.swift in Sources */,
+				CE235905204588E600A10181 /* ThirdController.swift in Sources */,
+				CE2358C12045889E00A10181 /* FourthViewController.swift in Sources */,
+				CE2358E6204588D300A10181 /* PlayerViewController.swift in Sources */,
+				CE2358DD204588C200A10181 /* InstagramViewController.swift in Sources */,
+				CE2358FF204588E600A10181 /* TwitterPageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +422,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE235903204588E600A10181 /* VideosViewController.swift in Sources */,
+				CE2358FA204588DD00A10181 /* SecondViewController.swift in Sources */,
+				CE2358F0204588D300A10181 /* ReportsViewController.swift in Sources */,
+				CE2358BC2045889E00A10181 /* FirstViewController.swift in Sources */,
+				CE2358B92045889E00A10181 /* FifthViewController.swift in Sources */,
+				CE2358BF2045889E00A10181 /* FacebookPageController.swift in Sources */,
+				CE2358D7204588B500A10181 /* HistoryPageController.swift in Sources */,
 				CE2358A62045887800A10181 /* Frome_TownUITests.swift in Sources */,
+				CE2358EA204588D300A10181 /* RoundCorners.swift in Sources */,
+				CE2358ED204588D300A10181 /* RoundButton.swift in Sources */,
+				CE2358CC204588AB00A10181 /* FromeTownLadiesViewController.swift in Sources */,
+				CE2358CF204588AB00A10181 /* FromeTownRobinsTwitterController.swift in Sources */,
+				CE2358D2204588AB00A10181 /* FromeTownRobinsFacebookController.swift in Sources */,
+				CE2358F6204588D300A10181 /* RadioViewController.swift in Sources */,
+				CE235906204588E600A10181 /* ThirdController.swift in Sources */,
+				CE2358C22045889E00A10181 /* FourthViewController.swift in Sources */,
+				CE2358E7204588D300A10181 /* PlayerViewController.swift in Sources */,
+				CE2358DE204588C200A10181 /* InstagramViewController.swift in Sources */,
+				CE235900204588E600A10181 /* TwitterPageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +458,6 @@
 			targetProxy = CE2358A22045887800A10181 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		CE2358892045887800A10181 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE23588A2045887800A10181 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CE23588E2045887800A10181 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE23588F2045887800A10181 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CE2358A82045887800A10181 /* Debug */ = {
@@ -425,30 +570,32 @@
 		CE2358AB2045887800A10181 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SHU39HZYKT;
 				INFOPLIST_FILE = "Frome Town/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "FromeTownFC.Frome-Town";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FromeTownFC.FromeTown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CE2358AC2045887800A10181 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SHU39HZYKT;
 				INFOPLIST_FILE = "Frome Town/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "FromeTownFC.Frome-Town";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FromeTownFC.FromeTown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -490,12 +637,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SHU39HZYKT;
 				INFOPLIST_FILE = "Frome TownUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FromeTownFC.Frome-TownUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Frome Town";
@@ -506,12 +655,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SHU39HZYKT;
 				INFOPLIST_FILE = "Frome TownUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FromeTownFC.Frome-TownUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Frome Town";
