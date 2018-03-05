@@ -67,12 +67,10 @@
 		CE2358FE204588E600A10181 /* TwitterPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358FB204588E500A10181 /* TwitterPageController.swift */; };
 		CE2358FF204588E600A10181 /* TwitterPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358FB204588E500A10181 /* TwitterPageController.swift */; };
 		CE235900204588E600A10181 /* TwitterPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358FB204588E500A10181 /* TwitterPageController.swift */; };
-		CE235901204588E600A10181 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358FC204588E500A10181 /* VideosViewController.swift */; };
-		CE235902204588E600A10181 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358FC204588E500A10181 /* VideosViewController.swift */; };
-		CE235903204588E600A10181 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358FC204588E500A10181 /* VideosViewController.swift */; };
 		CE235904204588E600A10181 /* ThirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358FD204588E500A10181 /* ThirdController.swift */; };
 		CE235905204588E600A10181 /* ThirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358FD204588E500A10181 /* ThirdController.swift */; };
 		CE235906204588E600A10181 /* ThirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2358FD204588E500A10181 /* ThirdController.swift */; };
+		CEB834A4204D5D0F000C83C1 /* VideoViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834A3204D5D0F000C83C1 /* VideoViewController1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,10 +119,10 @@
 		CE2358E4204588D200A10181 /* RadioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RadioViewController.swift; path = "../../../../../Volumes/NO NAME/RadioViewController.swift"; sourceTree = "<group>"; };
 		CE2358F7204588DD00A10181 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = "../../../../../Volumes/NO NAME/SecondViewController.swift"; sourceTree = "<group>"; };
 		CE2358FB204588E500A10181 /* TwitterPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitterPageController.swift; path = "../../../../../Volumes/NO NAME/TwitterPageController.swift"; sourceTree = "<group>"; };
-		CE2358FC204588E500A10181 /* VideosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideosViewController.swift; path = "../../../../../Volumes/NO NAME/VideosViewController.swift"; sourceTree = "<group>"; };
 		CE2358FD204588E500A10181 /* ThirdController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdController.swift; path = "../../../../../Volumes/NO NAME/ThirdController.swift"; sourceTree = "<group>"; };
 		CE2359192045A4D500A10181 /* Frome_TownUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frome_TownUITest.swift; sourceTree = "<group>"; };
 		CE23591B2045A4D500A10181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB834A3204D5D0F000C83C1 /* VideoViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,7 +195,7 @@
 				CE2358F7204588DD00A10181 /* SecondViewController.swift */,
 				CE2358FD204588E500A10181 /* ThirdController.swift */,
 				CE2358FB204588E500A10181 /* TwitterPageController.swift */,
-				CE2358FC204588E500A10181 /* VideosViewController.swift */,
+				CEB834A3204D5D0F000C83C1 /* VideoViewController1.swift */,
 				CE2358912045887800A10181 /* Info.plist */,
 			);
 			path = "Frome Town";
@@ -370,10 +368,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE235901204588E600A10181 /* VideosViewController.swift in Sources */,
 				CE2358F8204588DD00A10181 /* SecondViewController.swift in Sources */,
 				CE2358EE204588D300A10181 /* ReportsViewController.swift in Sources */,
 				CE2358BA2045889E00A10181 /* FirstViewController.swift in Sources */,
+				CEB834A4204D5D0F000C83C1 /* VideoViewController1.swift in Sources */,
 				CE2358B72045889E00A10181 /* FifthViewController.swift in Sources */,
 				CE2358BD2045889E00A10181 /* FacebookPageController.swift in Sources */,
 				CE2358D5204588B500A10181 /* HistoryPageController.swift in Sources */,
@@ -396,7 +394,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE235902204588E600A10181 /* VideosViewController.swift in Sources */,
 				CE2358F9204588DD00A10181 /* SecondViewController.swift in Sources */,
 				CE2358EF204588D300A10181 /* ReportsViewController.swift in Sources */,
 				CE2358BB2045889E00A10181 /* FirstViewController.swift in Sources */,
@@ -422,7 +419,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE235903204588E600A10181 /* VideosViewController.swift in Sources */,
 				CE2358FA204588DD00A10181 /* SecondViewController.swift in Sources */,
 				CE2358F0204588D300A10181 /* ReportsViewController.swift in Sources */,
 				CE2358BC2045889E00A10181 /* FirstViewController.swift in Sources */,
